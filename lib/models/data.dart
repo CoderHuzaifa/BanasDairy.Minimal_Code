@@ -1,0 +1,161 @@
+import 'package:banas_dairy/models/product.dart';
+
+import 'category.dart';
+
+class AppData {
+  static List<Product> productList = [
+    Product(
+        id: 1,
+        name: 'Chocolates',
+        price: 150.00,
+        isSelected: true,
+        isliked: false,
+        image: 'assets/images/img_1.png',
+        category: "Trending Now"),
+    Product(
+        id: 2,
+        name: 'Milk',
+        price: 30.00,
+        isliked: false,
+        image: 'assets/images/img_2.png',
+        category: "Trending Now"),
+    Product(
+        id: 3,
+        name: 'Masti Dahi',
+        price: 50.00,
+        isSelected: true,
+        isliked: false,
+        image: 'assets/images/img_3.png',
+        category: "Trending Now"),
+    Product(
+        id: 4,
+        name: 'Dark Chocolate',
+        price: 200.00,
+        isSelected: true,
+        isliked: false,
+        image: 'assets/images/img_4.png',
+        category: "Trending Now"),
+    Product(
+        id: 5,
+        name: 'Lassi',
+        price: 50.00,
+        isSelected: true,
+        isliked: false,
+        image: 'assets/images/img_5.png',
+        category: "Trending Now"),
+    Product(
+        id: 6,
+        name: 'Amul Butter',
+        price: 50.00,
+        isSelected: true,
+        isliked: false,
+        image: 'assets/images/img_6.png',
+        category: "Trending Now"),
+    Product(
+        id: 7,
+        name: 'Amul Cheese',
+        price: 50.00,
+        isSelected: true,
+        isliked: false,
+        image: 'assets/images/img_7.png',
+        category: "Trending Now"),
+    Product(
+        id: 8,
+        name: 'Happy treats',
+        price: 100.00,
+        isSelected: true,
+        isliked: false,
+        image: 'assets/images/img_8.png',
+        category: "Trending Now"),
+  ];
+  static List<Product> cartList = [
+    Product(
+        id: 1,
+        name: 'Chocolates',
+        price: 150.00,
+        isSelected: true,
+        isliked: false,
+        image: 'assets/images/img_1.png',
+        category: "Trending Now"),
+    Product(
+        id: 2,
+        name: 'Milk',
+        price: 30.00,
+        isliked: false,
+        image: 'assets/images/img_2.png',
+        category: "Trending Now"),
+    Product(
+        id: 3,
+        name: 'Masti Dahi',
+        price: 50.00,
+        isSelected: true,
+        isliked: false,
+        image: 'assets/images/img_3.png',
+        category: "Trending Now"),
+    Product(
+        id: 4,
+        name: 'Dark Chocolate',
+        price: 200.00,
+        isSelected: true,
+        isliked: false,
+        image: 'assets/images/img_4.png',
+        category: "Trending Now"),
+    Product(
+        id: 5,
+        name: 'Lassi',
+        price: 50.00,
+        isSelected: true,
+        isliked: false,
+        image: 'assets/images/img_5.png',
+        category: "Trending Now"),
+    Product(
+        id: 6,
+        name: 'Amul Butter',
+        price: 50.00,
+        isSelected: true,
+        isliked: false,
+        image: 'assets/images/img_6.png',
+        category: "Trending Now"),
+    Product(
+        id: 7,
+        name: 'Amul Cheese',
+        price: 50.00,
+        isSelected: true,
+        isliked: false,
+        image: 'assets/images/img_7.png',
+        category: "Trending Now"),
+    Product(
+        id: 8,
+        name: 'Happy treats',
+        price: 100.00,
+        isSelected: true,
+        isliked: false,
+        image: 'assets/images/img_8.png',
+        category: "Trending Now"),
+  ];
+  static List<Category> categoryList = [
+    Category(),
+    Category(
+        id: 1,
+        name: "Chocolate",
+        image: 'assets/images/img_1.png',
+        isSelected: true),
+    Category(id: 2, name: "Milk", image: 'assets/images/img_2.png'),
+    Category(id: 3, name: "Masti Dahi", image: 'assets/images/img_3.png'),
+    Category(id: 4, name: "Dark Chocolate", image: 'assets/images/img_4.png'),
+    Category(id: 5, name: "lassi", image: 'assets/images/img_5.png'),
+    Category(id: 6, name: "Amul Butter", image: 'assets/images/img_6.png'),
+    Category(id: 7, name: "Amul Cheese", image: 'assets/images/img_7.png'),
+    Category(id: 8, name: "Happy treats", image: 'assets/images/img_8.png'),
+  ];
+  static List<String> showThumbnailList = [
+    "assets/images/img_1.png",
+    "assets/images/img_2.png",
+    "assets/images/img_3.png",
+    "assets/images/img_4.png",
+    "assets/images/img_5.png",
+    "assets/images/img_6.png",
+    "assets/images/img_7.png",
+    "assets/images/img_8.png",
+  ];
+}
